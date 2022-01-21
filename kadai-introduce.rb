@@ -1,5 +1,4 @@
 myouji = "岡"
 namae = "孝輝"
-nenrei = "23"
-syoukai = myouji + namae + "です。" + nenrei + "歳です。"
-puts syoukai
+nenrei = 23
+puts myouji + namae + "です。" + nenrei.to_s + "歳です。"
